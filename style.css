@@ -1,0 +1,34 @@
+/* Main */
+ul#navLeft {
+	position: fixed;
+	background: #222;
+	height: 100%;
+	width: 200px;
+	padding: 20px 10px;
+	left: -200px;
+}
+ul#navLeft > li {
+	list-style-type: none;
+	margin: 10px;
+}
+ul#navLeft > li a {
+	color: white;
+}
+#navLeftBtn {
+	position: fixed;
+	z-index: 10;
+	left: 10px;
+	top: 50%;
+	background: #222;
+	border: 0;
+	color: white;
+	transform: translate(0, -50%);
+	outline-style:none;
+	padding: 7px 10px;
+	cursor: pointer;
+
+	/*border-radius*/
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
